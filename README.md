@@ -19,7 +19,7 @@ Water AI Multi Detector este o aplicație cu inteligență artificială care ana
 **Cum utilizați programul nostru:**
 
 1. Instalează bibliotecile necesare în terminal:
-   - pip install tkinter ultralyics pillow
+   - pip install tkinter ultralyics pillow opencv-python
 2. Rulează fișierul principal:
    - python app.py
 
