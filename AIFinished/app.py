@@ -5,9 +5,9 @@ import cv2
 from PIL import Image, ImageTk
 
 MODELS = {
-    "EMDS7":       ("ProtozoaAlgaeModel.pt",  "detect"),
-    "Microplastic": ("MicroplasticModel.pt",   "detect"),
-    "Bacteria":    ("BacteriaModel.pt",  "classify"),
+    "EMDS7":       ("ProtozoaAlgaeModel_openvino_model/",  "detect"),
+    "Microplastic": ("MicroplasticModel_openvino_model/",   "detect"),
+    "Bacteria":    ("BacteriaModel_openvino_model/",        "classify"),
 }
 
 #Speciile daunatoare din datasetul EMDS7
