@@ -1,0 +1,64 @@
+description: Ultralytics ProtozoaAlgaeModel model trained on emds7_yolo\dataset.yaml
+author: Ultralytics
+date: '2026-05-05T18:46:02.777077'
+version: 8.4.41
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: G001
+  1: G002
+  2: G003
+  3: G004
+  4: G005
+  5: G006
+  6: G007
+  7: G008
+  8: G009
+  9: G010
+  10: G011
+  11: G012
+  12: G013
+  13: G014
+  14: G015
+  15: G016
+  16: G017
+  17: G018
+  18: G019
+  19: G020
+  20: G021
+  21: G022
+  22: G023
+  23: G024
+  24: G025
+  25: G026
+  26: G027
+  27: G028
+  28: G029
+  29: G030
+  30: G031
+  31: G032
+  32: G033
+  33: G034
+  34: G035
+  35: G036
+  36: G037
+  37: G038
+  38: G039
+  39: G040
+  40: G041
+  41: unknown
+args:
+  batch: 1
+  fraction: 1.0
+  half: true
+  int8: false
+  dynamic: false
+  nms: false
+channels: 3
+end2end: false

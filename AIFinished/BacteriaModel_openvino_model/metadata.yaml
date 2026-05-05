@@ -1,0 +1,55 @@
+description: Ultralytics YOLOv8s-cls model trained on micro_dataset\yolo_dataset
+author: Ultralytics
+date: '2026-05-05T18:46:08.595118'
+version: 8.4.41
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 1
+task: classify
+batch: 1
+imgsz:
+- 224
+- 224
+names:
+  0: Acinetobacter_baumannii
+  1: Actinomyces_israelii
+  2: Bacteroides_fragilis
+  3: Bifidobacterium_spp
+  4: Candida_albicans
+  5: Clostridium_perfringens
+  6: Enterococcus_faecalis
+  7: Enterococcus_faecium
+  8: Escherichia_coli
+  9: Fusobacterium_spp
+  10: Lactobacillus_casei
+  11: Lactobacillus_crispatus
+  12: Lactobacillus_delbrueckii
+  13: Lactobacillus_gasseri
+  14: Lactobacillus_jehnsenii
+  15: Lactobacillus_johnsonii
+  16: Lactobacillus_paracasei
+  17: Lactobacillus_plantarum
+  18: Lactobacillus_reuteri
+  19: Lactobacillus_rhamnosus
+  20: Lactobacillus_salivarius
+  21: Listeria_monocytogenes
+  22: Micrococcus_spp
+  23: Neisseria_gonorrhoeae
+  24: Porphyromonas_gingivalis
+  25: Propionibacterium_acnes
+  26: Proteus_spp
+  27: Pseudomonas_aeruginosa
+  28: Staphylococcus_aureus
+  29: Staphylococcus_epidermidis
+  30: Staphylococcus_saprophyticus
+  31: Streptococcus_agalactiae
+  32: Veillonella_spp
+args:
+  batch: 1
+  fraction: 1.0
+  half: true
+  int8: false
+  dynamic: false
+  nms: false
+channels: 3
+end2end: false
