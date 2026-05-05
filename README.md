@@ -34,3 +34,5 @@ Water AI Multi Detector este o aplicație cu inteligență artificială care ana
 
 
 *Acest proiect a fost realizat de Morozov Timur si Cecan Bogdan*
+*Liceul Teoretic "Iulia Hasdeu"*
+Profesor: *Viorica Moglan*
