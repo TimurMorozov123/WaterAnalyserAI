@@ -16,6 +16,10 @@ Water AI Multi Detector este o aplicație cu inteligență artificială care ana
 6. Generează recomandări de utilizare (agricultură, animale, uz casnic, acvacultură, industrie)
 7. Permite selectarea unuia sau mai multor modele AI
 
+**Cerinte de sistem**
+
+Python 3.10.0
+
 **Cum utilizați programul nostru:**
 
 1. Instalează bibliotecile necesare în terminal:
